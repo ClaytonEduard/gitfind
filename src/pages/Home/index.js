@@ -22,6 +22,8 @@ export default function App() {
       if (newRepos.length) {
         setRepos(newRepos);
       }
+    } else {
+      alert('Nome de usuário não encontrado')
     }
   }
 
